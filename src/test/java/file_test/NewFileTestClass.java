@@ -31,7 +31,7 @@ public class NewFileTestClass {
         }
         String s1;
         s1 = sc.nextLine();
-        boolean s0 = s1.matches("^\\d+(\\.\\d+)?");
+        boolean s0 = s1.matches("^\\d+(\\.\\d+)");
         Assert.assertEquals(s0, true);
     }
 }
